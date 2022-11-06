@@ -1,0 +1,95 @@
+:root {
+	/* colors */
+	--bg-clr: #f0f0f0;
+	--border-clr: #e6e6e6;
+	--light-text-clr: #999;
+	--red: #e6563b;
+	--orange: #eb9d3a;
+	--green: #7cb06c;
+	--turq: #00aba9;
+	--dark-font-clr: #222529;
+	--abel: "Abel", sans-serif;
+	--anton: "Anton", sans-serif;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: var(--bg-clr);
+	font-family: var(--abel);
+}
+
+.container-fluid {
+	background-color: var(--bg-clr);
+}
+
+.navbar-brand span {
+	font-size: 1.5em;
+}
+
+#logo {
+	width: 3rem;
+	height: 3rem;
+}
+
+.title {
+	font-size: 2rem;
+	font-family: var(--anton);
+	color: var(--dark-font-clr);
+}
+
+.location {
+	font-size: 1.5rem;
+	font-family: var(--anton);
+	color: var(--dark-font-clr);
+}
+
+/* Large Circles */
+
+.row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.row div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 6rem;
+	width: 6rem;
+	color: white;
+	font-family: var(--anton);
+	font-size: 1em;
+	border: 0.5em white solid;
+	border-radius: 50%;
+	margin: 0 1rem;
+}
+
+#circle-1 {
+	background-color: var(--red);
+}
+
+#circle-2 {
+	background-color: var(--orange);
+}
+
+#circle-3 {
+	background-color: var(--green);
+}
+
+#circle-4 {
+	background-color: var(--turq);
+}
+
+/* Horizontal Rule */
+
+#hr-1 {
+	border: 1px solid var(--light-text-clr);
+	margin: 0 3rem;
+}
+
+.col-md-6 div span {
+	margin-bottom: 0.5em;
+}
