@@ -61,6 +61,10 @@ body {
 	margin-top: 4.5rem;
 }
 
+#circles {
+	display: flex;
+}
+
 #circles div {
 	display: flex;
 	justify-content: center;
@@ -103,10 +107,6 @@ body {
 
 /* below HR */
 
-#main-row-1 {
-	display: flex;
-	align-items: baseline;
-}
 
 .img-fluid {
 	height: 17em;
@@ -167,80 +167,9 @@ body {
 	margin-top: .5em;
 }
 
-/*
-@media screen and (max-width: 500px) {
+
+.paragraph {
+	width: 70%;
+	margin: 0 1em 0 0;
+	padding: 0;
 }
-*/
-
-/* .button-design {
-  background-color: #e6563b;
-  width: 70px;
-  height: 70px;
-  border: none;
-  color: white;
-  padding-top: 20px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 50%;
-} */
-
-/* .button-develop {
-  background-color: #eb9d3a;
-  width: 70px;
-  height: 70px;
-  border: none;
-  color: white;
-  padding-top: 20px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 50%;
-} */
-
-/* .button-support {
-  background-color: #7cb06c;
-  width: 70px;
-  height: 70px;
-  border: none;
-  color: white;
-  padding-top: 20px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 50%;
-} */
-
-/* .button-host {
-  background-color: #00aba9;
-  width: 70px;
-  height: 70px;
-  border: none;
-  color: white;
-  padding-top: 20px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 50%;
-} */
-
-/* .font-family {
-  font-family: "Anton", sans-serif;
-  font-weight: bolder;
-} */
-
-/* .abel {
-  font-family: "Abel", sans-serif;
-} */
-
-/* .font-size {
-  font-size: 12px;
-} */
