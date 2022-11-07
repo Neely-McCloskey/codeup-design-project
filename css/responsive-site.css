@@ -109,7 +109,7 @@ body {
 
 .img-fluid {
   height: 17em;
-  width: 27em;
+  width: 100%;
   border: 0.5em solid var(--border-clr);
   padding: 0;
 }
@@ -121,6 +121,7 @@ body {
   font-size: 1em;
   font-family: var(--anton);
   background-color: var(--red);
+  margin-right: .5em;
 }
 
 .orange-circle {
@@ -130,6 +131,7 @@ body {
   font-size: 1em;
   font-family: var(--anton);
   background-color: var(--orange);
+  margin-right: .5em;
 }
 
 .green-circle {
@@ -139,6 +141,7 @@ body {
   font-size: 1em;
   font-family: var(--anton);
   background-color: var(--green);
+  margin-right: .5em;
 }
 
 .turq-circle {
@@ -148,6 +151,7 @@ body {
   font-size: 1em;
   font-family: var(--anton);
   background-color: var(--turq);
+  margin-right: .5em;
 }
 
 #mobile-phone,
@@ -157,6 +161,10 @@ body {
   width: 5em;
   border: 0.125em solid var(--border-clr);
   margin-bottom: 1em;
+}
+
+.flex-grow-1 {
+  padding-left: .5em;
 }
 
 .span-the-last {
