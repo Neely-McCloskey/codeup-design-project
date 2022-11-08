@@ -44,7 +44,7 @@ body {
 /* Header */
 
 .title {
-  font-size: 3.5rem;
+  font-size: 4.25em;
   font-family: var(--anton);
   color: var(--dark-font-clr);
 }
@@ -184,7 +184,28 @@ body {
   margin-left: 5em;
 }
 
-@media screen and (max-width: 990px) {
+
+/* medium screens */
+@media screen and (max-width: 768px) {
+  #codeup-design {
+    display: none;
+  }
+}
+
+/* Small sizes */
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: 2.75em;
+  }
+  .location {
+    font-size: 1.75em;
+  }
+}
+
+
+/* don't touch */
+/* x-small sizes */
+@media screen and (max-width: 575px) {
   #codeup-design {
     display: none;
   }
