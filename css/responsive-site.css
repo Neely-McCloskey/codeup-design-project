@@ -184,9 +184,6 @@ body {
   margin-left: 5em;
 }
 
-
-/* make #codeup-design hidden for screens smaller than 990px */
-
 @media screen and (max-width: 990px) {
   #codeup-design {
     display: none;
