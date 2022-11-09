@@ -102,8 +102,9 @@ body {
 
 #hr-1 {
 	border: 1px solid #bbbcbd;
-	margin-top: 4em;
+	margin: 64px 12px 0 12px;
 	margin-bottom: 0;
+
 }
 
 /* below HR */
@@ -198,6 +199,15 @@ body {
 	}
 }
 
+@media screen and (max-width: 767px) {
+
+	#circles {
+		margin: 4em;
+	}
+
+}
+
+
 /* x-Small sizes */
 @media screen and (max-width: 576px) {
 	.title {
@@ -209,5 +219,18 @@ body {
 
 	#circles {
 		margin: 4em;
+	}
+}
+
+@media screen and (max-width: 455px) and (min-width: 300px) {
+	.title {
+		font-size: 2.25em;
+	}
+	.location {
+		font-size: 1.5em;
+	}
+	#circles {
+		margin-top: 5em;
+		margin: 5em 0 0 0;
 	}
 }
